@@ -1,0 +1,61 @@
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: row wrap;
+			flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background: #dbdbdb4d;
+	gap: 30px;
+}
+footer img {
+	width: 50px;
+}
+
+.references, .social-media-links {
+	gap: 20px;
+}
+
+.references {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 1 35%;
+	        flex: 0 1 35%;
+	display: -ms-grid;
+	display: grid;
+	grid-template-rows: repeat(2,auto);
+	grid-auto-flow: column;
+}
+.references a {
+	white-space: nowrap;
+}
+
+.social-media-links {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.fab {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.fab, .references a {
+	color: #4c545d;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

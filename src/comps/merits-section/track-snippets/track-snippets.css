@@ -1,0 +1,22 @@
+#track-snippets {
+	overflow: hidden;
+}
+/* title */
+#track-snippets .title {
+	text-align: center;
+	padding: 0 22% 5%;
+}
+/* description */
+#track-snippets .description img {
+	float: left;
+	width: 50%;
+	position: relative;
+	left: -25px;
+}
+.description .description-text {
+	padding: 5% 10% 5% 55%;
+}
+
+.description .description-text p {
+	font-size: 1rem;
+}

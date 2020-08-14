@@ -1,0 +1,18 @@
+#testimonials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+				flex-wrap: wrap;
+    gap: 35px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    padding: 5% 10%;
+}
+
+#testimonials div {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 1 auto;
+	        flex: 0 1 auto;
+}

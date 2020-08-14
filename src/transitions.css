@@ -1,0 +1,41 @@
+/* social-icons hover */
+.fab {
+	-webkit-transition: -webkit-transform .25s ease;
+	transition: -webkit-transform .25s ease;
+	-o-transition: transform .25s ease;
+	transition: transform .25s ease;
+	transition: transform .25s ease, -webkit-transform .25s ease;
+}
+.fab:hover {
+	-webkit-transform: translate(0,-10px);
+	    -ms-transform: translate(0,-10px);
+	        transform: translate(0,-10px);
+}
+/* download links hover */
+#top-section a:first-of-type:hover, #download-section a:first-of-type:hover,
+#top-section a:last-child:hover, #download-section a:last-child:hover {
+	opacity: .8;
+	-webkit-transition: opacity .2s ease;
+	-o-transition: opacity .2s ease;
+	transition: opacity .2s ease;
+}
+
+/* floating download link */
+.floating-link {
+	position: fixed; left: 0; top: 40%;
+	z-index: 1;
+	background: #26baa4;
+	opacity: .7;
+	color: white;
+	font-size: 1rem;
+	padding: 10px 10px;
+	border-radius: 0 8rem 8rem 0;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.floating-link:hover {
+	width: 5rem !important;
+	color: white !important;
+	opacity: 1;
+}

@@ -1,0 +1,27 @@
+#workflow-tools {
+	text-align: center;
+}
+/* title */
+#workflow-tools .title {
+	padding: 0 22%;
+}
+/* description */
+#workflow-tools .description {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 35px;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	    justify-content: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+#workflow-tools .description .column {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 1 25%;
+	        flex: 0 1 25%;
+}
+#workflow-tools .description .column p {
+	font-size: 1rem;
+}

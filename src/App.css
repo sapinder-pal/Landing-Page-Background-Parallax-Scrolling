@@ -1,0 +1,57 @@
+@import "./media-queries.css";
+@import "./transitions.css";
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+		font-size: 18px;
+}
+
+[class*="bg"] {
+    position: fixed; z-index: -10;
+    left: 0;
+    width: 100%;
+}
+.bg-mobile {
+	display: none;
+}
+
+h1,
+h2,
+h3 {
+    color: #4c545d;
+    font-weight: 600;
+}
+
+p {
+    color: #9fabb2;
+    font-size: 1.1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+a:focus {
+	outline: none;
+}
+footer a:hover, footer .fab:hover {
+	color: #26baa4;
+}

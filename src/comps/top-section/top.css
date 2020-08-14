@@ -1,0 +1,48 @@
+/* #top & #download sections share all of the properties */
+
+#top-section, #download-section {
+    text-align: center;
+    padding: 10% 22%;
+}
+
+.text-wrapper {
+    margin: 5% auto 10%;
+}
+
+.text-wrapper h1, .text-wrapper h2 {
+    margin: 0 auto 2%;
+}
+.text-wrapper p {
+    margin-bottom: 0;
+}
+/* #top-section p */
+#top-section .text-wrapper p {
+    font-size: 1.2rem;
+}
+
+
+#top-section a, #download-section a {
+    color: white;
+    padding: 3% 5%;
+    border-radius: 25%/100%;
+    margin: auto 1%;
+		text-decoration: none;
+}
+/* iOS link */
+#top-section a:first-of-type,
+#download-section a:first-of-type {
+    background: #26baa4;
+    -webkit-box-shadow: inset 0 -2px #1d8f7e;
+            box-shadow: inset 0 -2px #1d8f7e;
+    -webkit-filter: drop-shadow(0 5px 5px #2bcab26e);
+            filter: drop-shadow(0 5px 5px #2bcab26e)
+}
+/* Mac link */
+#top-section a:last-child,
+#download-section a:last-child {
+    background: #6173ff;
+    -webkit-box-shadow: inset 0 -2px #4350af;
+            box-shadow: inset 0 -2px #4350af;
+    -webkit-filter: drop-shadow(0 5px 5px #6173ff5b);
+            filter: drop-shadow(0 5px 5px #6173ff5b);
+}
